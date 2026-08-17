@@ -26,7 +26,7 @@ export default defineConfig(
       import: importPlugin,
     },
     rules: {
-      "prettier/prettier": [2, { endOfLine: "auto" }],
+      // "prettier/prettier": [2, { endOfLine: "auto" }],
       // Disabled to allow namespaced ROS message types since that's how we think about message types in ROS
       "@typescript-eslint/no-namespace": 0,
       // Plenty of APIs (like mocking APIs in Vitest) require empty functions to be declared.
